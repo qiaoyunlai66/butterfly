@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>joe.qiao.butterfly</groupId>
+	<artifactId>butterfly</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+	<name>butterfly - parent</name>
+	<description>fly in sky</description>
+	<modules>
+		<module>joe-program</module>
+		<module>joe-web</module>
+	</modules>
+	<developers>
+		<developer>
+			<id>ricardomariaca</id>
+			<name>Joe Qiao</name>
+			<email>qiaoyunlai66@163.com</email>
+			<roles>
+				<role>Project lead</role>
+				<role>Developer</role>
+			</roles>
+		</developer>
+	</developers>
+	<properties>
+		<encoding>UTF-8</encoding>
+		<javaeeVersion>7.0</javaeeVersion>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>${javaeeVersion}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.5.1</version>
+					<configuration>
+						<verbose>true</verbose>
+						<source>1.8</source>
+						<target>1.8</target>
+						<fork>true</fork>
+						<meminitial>256m</meminitial>
+						<maxmem>1024m</maxmem>
+						<debug>true</debug>
+						<encoding>${encoding}</encoding>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+</project>
