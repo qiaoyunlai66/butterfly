@@ -1,6 +1,6 @@
 package com.joe.qiao.domain.fileparser;
 
-import com.joe.qiao.domain.framework.logging.PhLogger;
+import com.joe.qiao.domain.logging.ButterflyLogger;
 
 import java.io.*;
 import java.net.URI;
@@ -14,7 +14,7 @@ import java.security.PrivilegedAction;
  */
 public class FileReaderHelper {
     
-    private static PhLogger logger = PhLogger.getLogger(FileReaderHelper.class);
+    private static ButterflyLogger logger = ButterflyLogger.getLogger(FileReaderHelper.class);
 
     /**
      * @param fileName

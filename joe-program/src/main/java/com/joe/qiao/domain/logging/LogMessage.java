@@ -1,4 +1,4 @@
-package com.joe.qiao.domain.framework.logging;
+package com.joe.qiao.domain.logging;
 
 /**
  *

@@ -3,7 +3,7 @@ package com.joe.qiao.drreports.element.image;
 import com.joe.qiao.drreports.core.Element;
 import com.joe.qiao.drreports.global.DRStyle;
 import com.joe.qiao.drreports.global.GlobalContext;
-import com.joe.qiao.domain.framework.logging.PhLogger;
+import com.joe.qiao.domain.logging.ButterflyLogger;
 import net.sf.dynamicreports.report.builder.component.ComponentBuilder;
 import net.sf.dynamicreports.report.builder.component.ImageBuilder;
 import net.sf.dynamicreports.report.builder.style.StyleBuilder;
@@ -22,7 +22,7 @@ public abstract class AbstractImage implements Element {
     protected Boolean fixedSize;
     protected String path;
     protected ImageScale imageScale;
-    protected static final PhLogger logger = PhLogger.getLogger(AbstractImage.class);
+    protected static final ButterflyLogger logger = ButterflyLogger.getLogger(AbstractImage.class);
     public static final String CAUSE="Cause";
 
 

@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package com.joe.qiao.domain.framework.logging;
+package com.joe.qiao.domain.logging;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

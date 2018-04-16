@@ -1,4 +1,4 @@
-package com.joe.qiao.domain.framework.logging;
+package com.joe.qiao.domain.logging;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.Log;
@@ -12,9 +12,9 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Michael Li <Michael.Li@prospecthills.net>
+ * @author Joe Qiao
  */
-public class PhLogger {
+public class ButterflyLogger {
     public static enum Severity {
     	TRACE("PHL_TRACE"),
         DEBUG("PHL_DEBUG"),
@@ -47,22 +47,22 @@ public class PhLogger {
     private Logger sysLogger;
     
     
-    private PhLogger(String name) {
+    private ButterflyLogger(String name) {
         logger = LogFactory.getLog(name);//apache log
         sysLogger = Logger.getLogger(name); //log4j
     }
     
-    private PhLogger(Class clazz) {
+    private ButterflyLogger(Class clazz) {
         logger = LogFactory.getLog(clazz);
         sysLogger = Logger.getLogger(clazz.getSimpleName());
     }
     
-    public static PhLogger getLogger(Class clazz) {
-        return new PhLogger(clazz);
+    public static ButterflyLogger getLogger(Class clazz) {
+        return new ButterflyLogger(clazz);
     }
     
-    public static PhLogger getLogger(String category) {
-        return new PhLogger(category);
+    public static ButterflyLogger getLogger(String category) {
+        return new ButterflyLogger(category);
     }
     
     public void trace(Object msg) {

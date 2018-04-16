@@ -1,4 +1,4 @@
-package com.joe.qiao.domain.framework.logging;
+package com.joe.qiao.domain.logging;
 
 
 import java.io.*;
@@ -9,7 +9,7 @@ import java.io.*;
  */
 public class LoggerTest {
     
-    private PhLogger logger=PhLogger.getLogger(LoggerTest.class);
+    private ButterflyLogger logger= ButterflyLogger.getLogger(LoggerTest.class);
 
    // protected static final Log log = LogFactory.getLog(LoggerTest.class);
     //protected static final Logger log = Logger.getLogger(LoggerTest.class);
@@ -22,7 +22,7 @@ public class LoggerTest {
     }
 
     private void testGetConfigJCL() {
-        InputStream is = PhLogger.class.getClassLoader().getResourceAsStream("META-INF/services/org.apache.commons.logging.LogFactory");
+        InputStream is = ButterflyLogger.class.getClassLoader().getResourceAsStream("META-INF/services/org.apache.commons.logging.LogFactory");
         BufferedReader rd =null;
         try {
             rd = new BufferedReader(new InputStreamReader(is, "UTF-8"));

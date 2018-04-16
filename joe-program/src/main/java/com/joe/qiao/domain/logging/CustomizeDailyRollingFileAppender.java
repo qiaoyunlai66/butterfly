@@ -1,4 +1,4 @@
-package com.joe.qiao.domain.framework.logging;
+package com.joe.qiao.domain.logging;
 
 import org.apache.log4j.DailyRollingFileAppender;
 import org.apache.log4j.Priority;
