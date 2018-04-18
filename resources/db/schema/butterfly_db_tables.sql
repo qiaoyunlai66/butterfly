@@ -1,0 +1,9 @@
+--sequence joe_global_gen
+--DROP SEQUENCE joe_global_gen;
+CREATE SEQUENCE joe_global_gen
+INCREMENT 1
+MINVALUE 1
+MAXVALUE 9223372036854775807
+START 10000
+CACHE 1;
+ALTER TABLE joe_global_gen OWNER TO butterfly;
