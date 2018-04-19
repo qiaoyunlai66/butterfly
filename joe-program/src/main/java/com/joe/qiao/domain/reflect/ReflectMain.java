@@ -2,10 +2,8 @@ package com.joe.qiao.domain.reflect;
 
 import com.joe.qiao.domain.logging.ButterflyLogger;
 import com.joe.qiao.domain.logging.LogMessage;
-import com.joe.qiao.global.Butterfly;
+import com.joe.qiao.domain.global.Butterfly;
 import org.apache.commons.beanutils.PropertyUtils;
-
-import java.lang.reflect.InvocationTargetException;
 
 /**
  * @author Joe Qiao

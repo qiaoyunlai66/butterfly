@@ -11,10 +11,10 @@ package com.joe.qiao.oozinoz.oozinoz.testing;
  * restriction that you may not claim that you wrote it.
  */
 
-import com.joe.qiao.oozinoz.oozinoz.process.ProcessComponent;
-import com.joe.qiao.oozinoz.oozinoz.process.ProcessSequence;
-import com.joe.qiao.oozinoz.oozinoz.process.ProcessStep;
-import com.joe.qiao.oozinoz.oozinoz.process.ShellProcess;
+import com.joe.qiao.domain.oozinoz.oozinoz.process.ProcessComponent;
+import com.joe.qiao.domain.oozinoz.oozinoz.process.ProcessSequence;
+import com.joe.qiao.domain.oozinoz.oozinoz.process.ProcessStep;
+import com.joe.qiao.domain.oozinoz.oozinoz.process.ShellProcess;
 import junit.framework.TestCase;
 
 /**

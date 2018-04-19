@@ -11,10 +11,10 @@ package com.joe.qiao.oozinoz.oozinoz.testing;
  * restriction that you may not claim that you wrote it.
  */
 
-import com.joe.qiao.oozinoz.oozinoz.function.Arithmetic;
-import com.joe.qiao.oozinoz.oozinoz.function.Constant;
-import com.joe.qiao.oozinoz.oozinoz.function.Function;
-import com.joe.qiao.oozinoz.oozinoz.function.Scale;
+import com.joe.qiao.domain.oozinoz.oozinoz.function.Arithmetic;
+import com.joe.qiao.domain.oozinoz.oozinoz.function.Constant;
+import com.joe.qiao.domain.oozinoz.oozinoz.function.Function;
+import com.joe.qiao.domain.oozinoz.oozinoz.function.Scale;
 import junit.framework.TestCase;
 
 /**

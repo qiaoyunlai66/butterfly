@@ -1,5 +1,0 @@
-package com.joe.qiao.headfirst.combining.ducks;
-
-public interface Quackable {
-	public void quack();
-}

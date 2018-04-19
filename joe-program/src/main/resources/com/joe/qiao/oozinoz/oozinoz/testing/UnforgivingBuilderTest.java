@@ -11,8 +11,8 @@ package com.joe.qiao.oozinoz.oozinoz.testing;
  * restriction that you may not claim that you wrote it.
  */
 
-import com.joe.qiao.oozinoz.oozinoz.reservation.*;
-import com.joe.qiao.oozinoz.oozinoz.utility.Dollars;
+import com.joe.qiao.domain.oozinoz.oozinoz.reservation.*;
+import com.joe.qiao.domain.oozinoz.oozinoz.utility.Dollars;
 import junit.framework.TestCase;
 
 import java.text.ParseException;

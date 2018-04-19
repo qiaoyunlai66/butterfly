@@ -11,7 +11,7 @@ package com.joe.qiao.oozinoz.oozinoz.testing;
  * restriction that you may not claim that you wrote it.
  */
 
-import com.joe.qiao.oozinoz.oozinoz.machine.*;
+import com.joe.qiao.domain.oozinoz.oozinoz.machine.*;
 import junit.framework.TestCase;
 
 /**

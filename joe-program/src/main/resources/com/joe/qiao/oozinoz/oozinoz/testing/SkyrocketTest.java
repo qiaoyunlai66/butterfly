@@ -11,8 +11,8 @@ package com.joe.qiao.oozinoz.oozinoz.testing;
  * restriction that you may not claim that you wrote it.
  */
 
-import com.joe.qiao.oozinoz.oozinoz.firework.OozinozSkyrocket;
-import com.joe.qiao.oozinoz.oozinoz.firework.PhysicalRocket;
+import com.joe.qiao.domain.oozinoz.oozinoz.firework.OozinozSkyrocket;
+import com.joe.qiao.domain.oozinoz.oozinoz.firework.PhysicalRocket;
 import junit.framework.TestCase;
 
 /**
