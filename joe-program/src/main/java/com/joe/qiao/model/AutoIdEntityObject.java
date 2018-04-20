@@ -3,6 +3,7 @@ package com.joe.qiao.model;
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
 
+@MappedSuperclass
 public abstract class AutoIdEntityObject{
     /**
      * TABLE：使用一个特定的数据库表格来保存主键。

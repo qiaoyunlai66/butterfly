@@ -24,14 +24,38 @@
 	<properties>
 		<encoding>UTF-8</encoding>
 		<javaeeVersion>7.0</javaeeVersion>
-	</properties>
+        <hibernate.version>5.1.0.Final</hibernate.version>
+    </properties>
+    
 	<dependencies>
+        <!--java ee-->
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
 			<version>${javaeeVersion}</version>
 			<scope>provided</scope>
 		</dependency>
+        
+        <!--postgresql jdbc-->
+        <dependency>
+            <groupId>postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.1-901-1.jdbc4</version>
+        </dependency>
+
+        <!--hibernate api-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>4.2.0.Final</version>
+        </dependency>
+        
 	</dependencies>
 	<build>
 		<pluginManagement>
